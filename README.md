@@ -1,17 +1,19 @@
-### Title : Where does the racial disparities come from in police stops ?
+### Title : Where do the racial disparities come from in police stops ? 
+// Ca suppose que y'a des racial disparities partout alors qu'on le sait pas on pourrait trouver un meilleur titre je pense
 
 ### Abstract :
-As the paper looked for bias in stop decisions across the United States and the effect of marijuana legalization on top decisions, we wanted to also look first whether the race of the officer has also an effect on race bias in stop decisions. Then, we want to also include subject's sex in the study by looking whether there's a bias in driver's sex and race in stop decisions. Then, we want to go deeper in the search by really assessing the paper's question which is the analysis of racial disparities in police stops. We want to look whether the percentage of race arrest is correlating with the race percentage from counties or if there's really a bias in stops. Finally, we want to look at the effect of politics in racial disparities for police stops. Effectively we want to take states that are majoritary Democratic or Republicans and see if the politics influences racial disparities in police stops.
+As the paper looked at racial disparities in police stops across the United States and the effect of marijuana legalization on stop decisions, we wanted to keep exploring the possible racial disparities in policing. First we would like to investigate whether the race of the officer has an effect in the stop decision of a driver. Similarly, we want to look if the driver's sex impacts the decision of the police officer to stop the driver or not. To do so we will simply use the dataset provided by the Stanford Open Policing Project which the paper is based on. Then, we want to investigate further in the direction of the paper's focus which is the analysis of racial disparities in police stops. We would like to see if the percentage of drivers stopped from a given race correspond to the percentage of that race in the local population or not suggesting the presence or absence of a racial bias. For example, if Hispanics correspond to a given percentage of the police stops in a city we would like to compare if Hispanics correspond to that percentage of the population in the city. Finally, we want to look if the political leaning of the city or state plays a role in racial disparities for police stops. Effectively we want to compare states or cities (depending on the available data) that are either majoritarly Democratic or Republican and see if there are statistically significant differences in the stop data.
 
 ### Research questions : 
-What is the effect of officer's race on racial diparities in police stops ?
-Is the racial disparity in police stops equal across subject's sex ?
-Is the racial disparity due to different race percentages in counties ?
-Does the politics influence race disparities in police stops ?
+Does the officer's race have an effect on racial diparities in police stops ?
+Is there a difference in the decision to stop a driver of a given race based on its sex ?
+Is the difference in stop rates for each race due to a police bias or a different distribution of that race in the population ?
+Does the political leaning of a state or city have an effect on race disparities in police stops ?
 
 ### Proposed datasets : 
 1) Stanford Open Policing Project (paper based dataset) : https://openpolicing.stanford.edu/data/ 
-2) Wikipedia for race percentages of counties and politics majorites in states
+2) Wikipedia API for race percentages of counties and politics majorites in states
+3) US census data : https://www.census.gov/data.html
 
 ### Methods :
 We will first extract from the whole dataset driver's race and officer's race to analyze if it has an effect on racial disparities. Then we will do the same but this time with subject's sex. Then we would have to get a dataset from Wikipedia with the race percentages in counties that have data for police stops. We would then normalize race stops to this percentages and see if there is still an effect of racial disparity or if the effect is even bigger. Finally, we will get a dataset from Wikipedia but this time with the majority of politics of different states. We will not use Swing States but only States majoritary Democrates or Republicans. We will thus see if there is a correlation between state's politic and racial disparity in police stops.
