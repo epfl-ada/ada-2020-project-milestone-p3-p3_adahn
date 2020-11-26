@@ -1,6 +1,5 @@
-### Title : Where do the racial disparities come from in police stops ? 
-// Ca suppose que y'a des racial disparities partout alors qu'on le sait pas on pourrait trouver un meilleur titre je pense
-// Peut être "Is there an hidden feature that can influence police stops rate" ? 
+### Title : Is there an hidden feature that can influence police stops rate ? 
+
 ### Abstract :
 As the paper looked at racial disparities in police stops across the United States and the effect of marijuana legalization on stop decisions, we wanted to keep exploring the possible racial disparities in policing. First we would like to investigate whether the race of the officer has an effect in the stop decision of a driver. Similarly, we want to look if the driver's sex impacts the decision of the police officer to stop the driver or not. To do so we will simply use the dataset provided by the Stanford Open Policing Project which the paper is based on. Then, we want to investigate further in the direction of the paper's focus which is the analysis of racial disparities in police stops. We would like to see if the percentage of drivers stopped from a given race correspond to the percentage of that race in the local population or not suggesting the presence or absence of a racial bias. For example, if Hispanics correspond to a given percentage of the police stops in a city we would like to compare if Hispanics correspond to that percentage of the population in the city. Finally, we want to look if the political leaning of the city or state plays a role in racial disparities for police stops. Effectively we want to compare states or cities (depending on the available data) that are either majoritarly Democratic or Republican and see if there are statistically significant differences in the stop data.
 
@@ -23,10 +22,7 @@ When comparing the stop rates of a Democrates and Republican states, we will hav
 (FAUT DEVELOPPER PLUS LES COMPARAISONS/TESTS QU'ON VA FAIRE JE PENSE)
 
 ### Proposed timeline :
-As we will have around 3 weeks to work on this extension of the study, we will start by answering the two first questions during the first week. The second week, we will get the Wikipedia and Cencus datatset and during the third week analyze those datatsets to answer the two other questions. 
-
-(JE PENSE JE SUIS PLUS CHAUD A RACCOURCIR UN PEU LA TIMELINE EN MODE : 2 PREMIèRES QUESTIONS + DATASET WIKI DURANT LA 1 SEMAINE ET ANALYSE DES 2 DERNIERES QUESTIONS DURANT LA 2E, COMME CA ON EST LARGE)
-(dahn: Je suis d'accord, deux premières questions première semaine et en parallèle je récupère les deux dataset en ligne) 
+As we will have around 3 weeks to work on this extension of the study, we will start by answering the two first questions during the first week, as well as collecting the Wikipedia and Census dataset. The second week we will analyze those datatsets to answer the two final questions. The third week will be use to review the results and write down the possible outcomes of the data analysis. 
 
 ### Organization within the team
 
