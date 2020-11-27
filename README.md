@@ -38,8 +38,7 @@ As we will have around 3 weeks to work on this extension of paper, by the end of
 Nicolas will answer question 1).
 James answers question 2).
 Dahn answers question 3).
-
-VU QUE DAHN TU DOIS EXTRAIRE LES DONNES WIKIPEDIA + CENSUS COMME TU SAIS Y FAIRE TU REPONDRA à UNE SEULE QUESTION. MOI ET JAMES ON RéPOND à DEUX QUESTIONS. FAUT QU'ON SE METTE D'ACCORD à COMMENT FAIRE LE DATA WRANGLING AUSSI. EST-CE QUE CHACUN LE FAIT POUR SES DONNéES, ON SPLIT LE TRAVAIL OU QUELQU'UN FAIT TOUT ?
+We will all work on question 4) and we will do the data wrangling indivudually on our datasets since they are not the same. Moreover, Dahn will get the Census and Wikipedia datasets.
 
 ### Questions for TAs (optional)
 
