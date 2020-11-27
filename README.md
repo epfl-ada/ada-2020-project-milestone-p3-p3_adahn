@@ -27,8 +27,6 @@ To answer question 3), we will look at the racial distribution of the population
 
 When comparing the stop rates of a Democrates and Republican states to anwser question 4), we will have to take into account the race percentage of the state. Indeed, a conservative state may have less black, hence this can give a false impression of lower search rate for black people in Republican States. We might train a regression model with significant states or counties, and observe if a dominant political party may influence the disparities. 
 
-(FAUT DEVELOPPER PLUS LES COMPARAISONS/TESTS QU'ON VA FAIRE JE PENSE - Et relire!!)
-
 ### Proposed timeline :
 
 As we will have around 3 weeks to work on this extension of paper, by the end of the first week we must have collected all the necessary datasets and performed data wrangling on them. Each team member should have ideally started working on his assigned question by the end of the first week too. The second week will be used to finish answering the questions. The third week will be used to review the results, produce the data story and the video. 
@@ -39,6 +37,3 @@ Nicolas will answer question 1).
 James answers question 2).
 Dahn answers question 3).
 We will all work on question 4) and we will do the data wrangling indivudually on our datasets since they are not the same. Moreover, Dahn will get the Census and Wikipedia datasets.
-
-### Questions for TAs (optional)
-
