@@ -25,7 +25,7 @@ For question 2), we will have to separate the data based on the driver's sex and
 
 To answer question 3), we will look at the racial distribution of the population in a given state and compare it to the distribution of stops for that race. For example, if hispanics represent 30% of the population in a state, do they represent 30% of the drivers stopped in that state ? Any difference would not inherently mean that the cops are racist but would should that there are racial disparities in policing. Again, statistical tests would need to be performed to see if the difference (if there is one) is statistically different. We need to look at stops performed durng the day only since it's when the race of the driver is visible to the officer.
 
-When comparing the stop rates of a Democrates and Republican states, we will have to take into account the race percentage of the state. Indeed, a conservative state may have less black, hence this can give a false impression of lower search rate for black people in Republican States. We might train a regression model with significant states or counties, and observe if a dominant political party may influence the disparities. 
+When comparing the stop rates of a Democrates and Republican states to anwser question 4), we will have to take into account the race percentage of the state. Indeed, a conservative state may have less black, hence this can give a false impression of lower search rate for black people in Republican States. We might train a regression model with significant states or counties, and observe if a dominant political party may influence the disparities. 
 
 (FAUT DEVELOPPER PLUS LES COMPARAISONS/TESTS QU'ON VA FAIRE JE PENSE - Et relire!!)
 
