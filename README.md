@@ -1,19 +1,19 @@
-### Title : Is there an hidden feature that can influence police stops rate ? 
+### Title : Does the officer's race have an effect on racial disparities in police stops ? 
 
 ### Abstract :
-As the paper looked at racial disparities in police stops across the United States and the effect of marijuana legalization on stop decisions, we wanted to keep exploring the possible racial disparities in policing. First we would like to investigate whether the race of the officer has an effect in the stop decision of a driver. Similarly, we want to look if the driver's sex impacts the decision of the police officer to stop the driver or not. To do so we will simply use the dataset provided by the Stanford Open Policing Project which the paper is based on. Then, we want to investigate further in the direction of the paper's focus which is the analysis of racial disparities in police stops. We would like to see if the percentage of drivers stopped from a given race correspond to the percentage of that race in the local population or not suggesting the presence or absence of a racial bias. For example, if Hispanics correspond to a given percentage of the police stops in a city we would like to compare if Hispanics correspond to that percentage of the population in the city. Finally, we want to look if the political leaning of the city or state plays a role in racial disparities for police stops. Effectively we want to compare states or cities (depending on the available data) that are either majoritarly Democratic or Republican and see if there are statistically significant differences in the stop data.
+  As the paper looked at racial disparities in police stops across the United States, we wanted to keep exploring the possible racial disparities in policing. In particular, we would like to investigate whether the race of the officer has an effect on racial disparities in police stops. First, we will assess potential bias in stop decisions by applying the 'veil of darkness' test. #JAMES JE SUIS PAS SUR EXACTEMENT DE LA QUESTION AUXQUEL TU REPOND#. Next, for each officer race we will look at the racial makeup of the drivers they stopped and compare it to the racial makeup of the county where the stops were made. If there are no disparities in policing the proportion of white drivers stopped in a county by a black officer should match the proportion of whites living in that county for example. Finally, we look at the rate at which an officer from a given race searches drivers with the same race as him versus drivers of a different race. However as possible disparities in search rates are not necessarily the product of discrimation as highlighted by the paper, we will also investigate the potential bias in the post-stop decision to search drivers for contraband. This will be done using outcome analysis, particularly by using the hit rates as defined in the paper. The data that we will use for our different analyses will be the datasets on policing made available by the Stanford Open Policing Project as well as the US census data.
 
 ### Research questions : 
-1) Does the officer's race have an effect on racial diparities in police stops ?
+1) Does the potential biais in search decision vary accross the different officer races ?
 2) Is there a difference in the decision to stop a driver of a given race based on its sex ?
 3) Is the difference in stop rates for each race due to a police bias or a different distribution of that race in the population ?
 4) Does the political leaning of a state or city have an effect on race disparities in police stops ?
 
 ### Proposed datasets : 
 1) Stanford Open Policing Project (paper based dataset) : https://openpolicing.stanford.edu/data/ 
-2) Wikipedia API for race percentages of counties and politics majorites in states
-3) US census data : https://www.census.gov/data.html
+2) US census data : https://www.census.gov/data.html
 
+# A REFAIRE #
 ### Methods :
 First we will get all the necessary datasets and do the data wrangling on them. We will use data from as many cities / states as there are on the Stanford Open Policing Project, considering they have the fields we are interested in (such as the officers race for example).
 
