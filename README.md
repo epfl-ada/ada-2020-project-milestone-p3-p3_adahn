@@ -30,5 +30,7 @@ As we will have around 3 weeks to work on this extension of paper, by the end of
 
 ### Organization within the team
 James: Veil-of-Darkness test, write report
-Nicolas: Search Decision tests, write report
+
+Nicolas: Assessing bias in search decisions (search rate & outcome test), write report
+
 Dahn: Census Dataset and tests, write report
