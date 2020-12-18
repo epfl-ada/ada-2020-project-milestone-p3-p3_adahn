@@ -13,13 +13,12 @@
 1) Stanford Open Policing Project (paper based dataset) : https://openpolicing.stanford.edu/data/ 
 2) US census data : https://www.census.gov/data.html
 
-# A REFAIRE #
 ### Methods :
-First we will get all the necessary datasets and do the data wrangling on them. We will use data from as many cities / states as there are on the Stanford Open Policing Project, considering they have the fields we are interested in (such as the officers race for example).
+First we will get all the necessary datasets and do the data wrangling on them. We will use data from as many cities / states as there are on the Stanford Open Policing Project, considering they have the fields we are interested in (such as the officer race for example).
 
 Then we would get a dataset from the US census data containing the race distributions in the cities / states where we have policing data on (from the Stanford Open Policing Project). This can be done using queries with the census data API.
 
-To answer question 1), we will separate the data by the race of the officer that made the stop, and see whether the bias in stop decisions is the same across all officers race of if some officers have a more biased way of stopping driver by race. 
+To answer question 1), we will separate the data by the race of the officer that made the stop, and see whether the bias in stop decisions is the same across all officers race of if some officers have a more biased way of stopping driver by race. We will use a library to find sunset times across the US and do the Veil-of-Darkness test.
 
 To answer question 2), we will first compare the rate at which officers of a given race search drivers of the same race as them and drivers of a different race. But since a difference in search rates doesn't necessarily mean that there is a bias, we will conduct an outcome test. For white, black and Hispanic officers the outcome test consists in comparing the hit rates on drivers of the same race as them with the hit rate on driver of a different race, where the hit rate is defined as the number of searches that resulted in contraband being found divided by the number of searches. To be able to compare the hit rates on a by county basis, we will keep only counties where an officer made searches on drivers of the same race as him as well as on a different race. This will allow us to produce a figure similar to Figure 3a) of the paper this extension is based on, as it is a good way to visualize potential bias. Moreover we will conduct student t-test to look if the potential difference in hit rates on drivers of the same race as the officer versus drivers of a different race is statistically significant.
 
@@ -30,7 +29,6 @@ To answer question 3), we will look at the racial distribution of the population
 As we will have around 3 weeks to work on this extension of paper, by the end of the first week we must have collected all the necessary datasets and performed data wrangling on them. Each team member should have ideally started working on his assigned question by the end of the first week too. The second week will be used to finish answering the questions. The third week will be used to review the results, produce the data story and the video. 
 
 ### Organization within the team
-
-Nicolas will answer question 2).
-James answers question 1).
-Dahn answers question 3).
+James: Veil-of-Darkness test, write report
+Nicolas: Search Decision tests, write report
+Dahn: Censur Dataset and tests, write report
